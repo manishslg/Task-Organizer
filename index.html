@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Organizer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="Task manager.png">
+</head>
+<body>
+    <header>
+        <img src="Task Manager.png">
+        <h1>Task Organizer</h1>
+    </header>
+    <main>
+        <section id="all">
+            <h2>All Tasks List</h2>
+            <hr>
+            <div class="list">
+
+                <!-- Format For Tasks -->
+
+                <!-- <div class="task">
+                    <div>
+                        <i class="fa-regular fa-circle check"></i>
+                        Task 1
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-star star"></i>
+                        <i class="fa-regular fa-trash-can delete"></i>
+                    </div>
+                </div> -->
+                
+            </div>
+        </section>
+        <section id="important">
+                <h2>Important Tasks List</h2>
+                <hr>
+            <div class="list">
+            </div>
+        </section>
+        <section id="completed">
+            <h2>Completed Tasks List</h2>
+            <hr>
+            <div class="list">
+            </div>
+        </section>
+    </main>
+    <div id="inputtask">
+        <!-- <i class="fa-regular fa-star star" type="button"></i> -->
+        <input type="text" placeholder="      Enter Today's Task... ">
+        <i class="fa-regular fa-paper-plane submit" type="button" id="submit"></i>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
